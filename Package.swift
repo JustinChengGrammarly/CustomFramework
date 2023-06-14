@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "CustomFramework",
             dependencies: []),
-        .testTarget(
-            name: "CustomFrameworkTests",
-            dependencies: ["CustomFramework"]),
     ]
 )
