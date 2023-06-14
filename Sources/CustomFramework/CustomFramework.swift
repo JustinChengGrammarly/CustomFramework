@@ -1,6 +1,8 @@
 public struct CustomFramework {
-    public private(set) var text = "Hello, World!"
-
     public init() {
+    }
+    
+    public func changeColor(_ text: String) {
+        print("Doing some work...")
     }
 }
