@@ -3,6 +3,6 @@ public struct CustomFramework {
     }
     
     public static func changeColor(_ text: String) {
-        print("Doing some work...")
+        print(text)
     }
 }
